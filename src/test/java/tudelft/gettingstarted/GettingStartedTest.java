@@ -20,8 +20,8 @@ public class GettingStartedTest {
    }
 //
    @Test
-  public void addFiveToMinus20() {
-     int result = new GettingStarted().addFive(-20);
-     Assertions.assertEquals(-15,result);
+  public void addFiveToMinus22() {
+     int result = new GettingStarted().addFive(-22);
+     Assertions.assertEquals(-17,result);
   }
 }
